@@ -54,7 +54,14 @@ column 2 DATATYPE,
 column 3 DATATYPE,
 UNIQUE(column 1));
 
-)
+# INSERT INTO Function allows us to insert values into the attributes\ columns.
+INSERT INTO table_name(column1, column2, column3)
+VALUES('value1', 'value2', 'value3');
+
+# UPDATE Function allows us to update the existing values in the columns.
+UPDATE table_name
+SET( column1 = value1, column2 = value2, column3 = value3)
+WHERE unique key = given values;
 
 
 
