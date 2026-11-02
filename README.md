@@ -28,6 +28,34 @@ FROM `student information`;
 SELECT c.`course name`, s.`GPA`
 FROM `courses` AS c,`student_information AS s;
 
+#02 November 2026
+# Creating Tables.
+CREATE TABLE table_name(
+column 1 DATATYPE,
+column 2 DATATYPE,
+column 3 DATATYPE,
+.
+.
+.
+column n DATATYPE
+);
+
+# ASSIGNING NOT NULL values. The NOT NULL function does not allow null\missing values in that specific column.
+CREATE TABLE table_name(
+column 1 DATATYPE NOT NULL,
+column 2 DATATYPE,
+column 3 DATATYPE
+);
+
+# Assigning UNIQUE values. The UNIQUE values function does not allow duplicates within that specific column.
+CREATE TABLE table_name(
+column 1 DATATYPE NOT NULL,
+column 2 DATATYPE,
+column 3 DATATYPE,
+UNIQUE(column 1));
+
+)
+
 
 
 
